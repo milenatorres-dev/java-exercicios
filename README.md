@@ -31,8 +31,8 @@ org.example.exercicios
 ├── basicos
 │   ├── CelsiusToFahrenheit.java
 │   ├── Fatorial.java
-│   └── FatorialStringBuilder.java
-│
+│   ├── FatorialStringBuilder.java
+│   └── AutonomiaVeiculo.java
 ├── jogos
 │   ├── JogoAdvinhacao.java
 │   └── JogoAdvinhacao2.java
