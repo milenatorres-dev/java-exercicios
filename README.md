@@ -136,6 +136,17 @@ Simulação de um sistema bancário simples com:
 * Controle de fluxo
 
 ---
+#### 🚗 Cálculo de Autonomia de Veículo
+Este projeto em Java calcula a autonomia de um veículo com base no consumo médio e na quantidade de combustível disponível.
+
+#### Funcionalidades:
+- Cálculo da autonomia máxima (tanque cheio)
+- Cálculo da autonomia atual
+- Verificação se o combustível é suficiente para a viagem
+- Cálculo da quantidade de combustível necessária para completar o trajeto
+- Estimativa de litros que precisam ser abastecidos
+
+___
 
 ## 📌 Objetivo
 
