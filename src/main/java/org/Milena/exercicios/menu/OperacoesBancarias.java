@@ -9,16 +9,22 @@ public class OperacoesBancarias {
         double saldo = 5000;
         int opcao = 0;
 
-        System.out.println("Nome do cliente: " + nome);
+        System.out.println("************************************");
+        System.out.println("\nNome do cliente: " + nome);
         System.out.println("Tipo de conta: " + tipoConta);
         System.out.println("Saldo inicial da conta: " + saldo);
+        System.out.println("\n************************************");
+
+        String menu = """
+               **Escolha uma opção no menu de operações**
+                 Opção 1: Consultar saldos
+                 Opção 2: Receber valor
+                 Opção 3: Transferir valor
+                 Opção 4: Sair
+               """;
 
         while (opcao != 4) {
-            System.out.println("Escolha uma opção no menu de operações:");
-            System.out.println("Opção 1: Consultar saldos");
-            System.out.println("Opção 2: Receber valor");
-            System.out.println("Opção 3: Transferir valor");
-            System.out.println("Opção 4: Sair");
+            System.out.println("\n" + menu);
 
             opcao = sc.nextInt();
 
@@ -26,7 +32,6 @@ public class OperacoesBancarias {
 
                 case 1 -> {
                     System.out.println("O salto atual da conta é: " + saldo);
-                    break;
                 }
 
                 case 2 -> {
@@ -35,21 +40,25 @@ public class OperacoesBancarias {
 
                     saldo = saldo + valor;
                     System.out.println("O seu saldo atual é de : " + saldo );
-                    break;
                 }
 
                 case 3->{
                     System.out.println("Digite o valor que você quer transferir: ");
                     double valor = sc.nextDouble();
 
+                     if(valor>saldo){
+                         System.out.println("Saldo insuficiente para transferência");
+                         System.out.println("O seu saldo atual é de : " + saldo );
+
+                         break;
+                     }
+
                     saldo = saldo - valor;
                     System.out.println("O seu saldo atual é de: " + saldo);
-                    break;
                 }
 
                 case 4->{
                     System.out.println("Operação encerrada");
-                    break;
                 }
 
                 default -> System.out.println("Operação inválida. Digite uma opção válida");

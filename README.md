@@ -168,10 +168,4 @@ Milena Barbosa Torres
 
 ---
 
-## 📎 Próximos passos
 
-* Aplicar Programação Orientada a Objetos (POO)
-* Criar APIs com Spring Boot
-* Integrar com banco de dados
-
----
