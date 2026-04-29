@@ -98,6 +98,28 @@ Este projeto em Java calcula a autonomia de um veículo com base no consumo méd
 
 ___
 
+#### 🩸DoadorSangue.java
+
+Programa que verifica se uma pessoa pode ser doadora de sangue com base na idade (18 a 65 anos) e peso mínimo (>50 kg), utilizando operadores lógicos para validação das condições.
+
+---
+
+#### 🔐PermissaoAcesso.java 
+
+Sistema simples de validação de acesso que compara um código numérico e verifica se o nível de permissão está dentro de uma lista de valores válidos, utilizando estruturas de repetição e condicionais.
+
+---
+
+#### ✅ PermissaoAcesso2.java 
+
+Versão otimizada da validação de acesso utilizando variáveis booleanas para tornar a lógica mais clara, validando código e faixa de nível de permissão e exibindo mensagens específicas de erro.
+
+---
+
+#### 📐Triangulo.java 
+
+Programa que verifica se três valores podem formar um triângulo com base na regra matemática de que a soma de dois lados deve ser maior que o terceiro.
+
 ### 🔹 Pacote: `jogos`
 
 #### 🎯 Jogo de Adivinhação (for)
