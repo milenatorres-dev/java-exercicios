@@ -28,11 +28,15 @@ O projeto foi estruturado seguindo boas práticas utilizadas no mercado, incluin
 ```text
 org.example.exercicios
 │
-├── basicos
-│   ├── CelsiusToFahrenheit.java
-│   ├── Fatorial.java
-│   ├── FatorialStringBuilder.java
-│   └── AutonomiaVeiculo.java
+basicos
+│   ├── CelsiusToFahrenheit.java   
+│   ├── Fatorial.java 
+│   ├── FatorialStringBuilder.java 
+│   ├── AutonomiaVeiculo.java 
+│   ├── DoadorSangue.java 
+│   ├── PermissaoAcesso.java 
+│   ├── PermissaoAcesso2.java 
+│   └── Triangulo.java 
 │ 
 ├── jogos
 │   ├── JogoAdvinhacao.java
